@@ -8,5 +8,5 @@ docker run --rm -it phillebaba/docker-debug-tool:4bba3a3 bash
 
 **Kubernetes**
 ```bash
-kubectl run -i --tty --rm debug --image=phillebaba/docker-debug-tool:4bba3a3 --restart=Never -- bash
+kubectl run -i --tty --rm debug --image=phillebaba/docker-debug-tool:07cf825 --restart=Never -- bash
 ```
